@@ -1,0 +1,19 @@
+﻿<Window x:Class="Inventory_management_system.Check_supp"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Check_supp" Height="596" Width="686">
+    <Window.Background>
+        <ImageBrush>
+            <ImageBrush.ImageSource>
+                <BitmapImage UriSource="Images\IM.jpg"/>
+            </ImageBrush.ImageSource>
+        </ImageBrush>
+    </Window.Background>
+    <Grid>
+        <Label Content="Supplier ID :" Height="28" HorizontalAlignment="Left" Margin="44,68,0,0" Name="label1" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="156,70,0,0" Name="sid" VerticalAlignment="Top" Width="120" KeyDown="sid_KeyDown" />
+        <Label Content="SUPPLER INFORMATION" Height="28" HorizontalAlignment="Left" Margin="257,12,0,0" Name="label2" VerticalAlignment="Top" />
+        <DataGrid AutoGenerateColumns="True" Height="102" HorizontalAlignment="Left" Margin="109,146,0,0" Name="dataGrid1" VerticalAlignment="Top" Width="405" />
+        <Button Content="HOME" Height="23" HorizontalAlignment="Left" Margin="439,297,0,0" Name="hom" VerticalAlignment="Top" Width="75" Click="hom_Click" />
+    </Grid>
+</Window>

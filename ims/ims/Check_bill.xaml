@@ -1,0 +1,21 @@
+﻿<Window x:Class="Inventory_management_system.Check_bill"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Check_bill" Height="680" Width="1003">
+    <Window.Background>
+        <ImageBrush>
+            <ImageBrush.ImageSource>
+                <BitmapImage UriSource="Images\SM.jpg"/>
+            </ImageBrush.ImageSource>
+        </ImageBrush>
+    </Window.Background>
+    <Grid Height="647" Width="989">
+        <Label Content="BILL INFORMATION " Height="28" HorizontalAlignment="Left" Margin="404,12,0,0" Name="label1" VerticalAlignment="Top" />
+        <Label Content="DATE :" Height="28" HorizontalAlignment="Left" Margin="55,66,0,0" Name="label2" VerticalAlignment="Top" />
+        <Label Content="USER ID :" Height="28" HorizontalAlignment="Left" Margin="55,109,0,0" Name="label3" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="206,109,0,0" Name="bbi" VerticalAlignment="Top" Width="120" KeyDown="bbi_KeyDown" />
+        <DataGrid AutoGenerateColumns="True" Height="329" HorizontalAlignment="Left" Margin="55,218,0,0" Name="dataGrid1" VerticalAlignment="Top" Width="825" />
+        <Button Content="HOME" Height="28" HorizontalAlignment="Left" Margin="742,563,0,0" Name="Home" VerticalAlignment="Top" Width="130" Click="Home_Click" />
+        <DatePicker Height="25" HorizontalAlignment="Left" Margin="206,66,0,0" Name="datePicker1" VerticalAlignment="Top" Width="120" SelectedDateChanged="datePicker1_SelectedDateChanged" />
+    </Grid>
+</Window>

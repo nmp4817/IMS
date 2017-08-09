@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D3557AFC-B336-4715-8BBB-4C219DB11A96}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Inventory_management_system</RootNamespace>
+    <AssemblyName>Inventory_management_system</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Images\Inventory maintenance.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Add_purchase.xaml.cs">
+      <DependentUpon>Add_purchase.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Add_remove_item.xaml.cs">
+      <DependentUpon>Add_remove_item.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Add_remove_supp.xaml.cs">
+      <DependentUpon>Add_remove_supp.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Add_remove_user.xaml.cs">
+      <DependentUpon>Add_remove_user.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_home.xaml.cs">
+      <DependentUpon>Admin_home.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Bill_gen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bill_gen.Designer.cs">
+      <DependentUpon>Bill_gen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bill_generation.xaml.cs">
+      <DependentUpon>Bill_generation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Change_pwd.xaml.cs">
+      <DependentUpon>Change_pwd.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Check_bill.xaml.cs">
+      <DependentUpon>Check_bill.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Check_inv.xaml.cs">
+      <DependentUpon>Check_inv.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Check_order.xaml.cs">
+      <DependentUpon>Check_order.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Check_sale.xaml.cs">
+      <DependentUpon>Check_sale.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Check_supp.xaml.cs">
+      <DependentUpon>Check_supp.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dvq.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dvq.Designer.cs">
+      <DependentUpon>Dvq.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dvs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dvs.Designer.cs">
+      <DependentUpon>Dvs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalVariable.cs" />
+    <Compile Include="Inventory_manager_home.xaml.cs">
+      <DependentUpon>Inventory_manager_home.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Inv_status.xaml.cs">
+      <DependentUpon>Inv_status.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Order_item.xaml.cs">
+      <DependentUpon>Order_item.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Remove.xaml.cs">
+      <DependentUpon>Remove.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Remove_supp.xaml.cs">
+      <DependentUpon>Remove_supp.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Report3.xaml.cs">
+      <DependentUpon>Report3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Return_item.xaml.cs">
+      <DependentUpon>Return_item.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ret_item.xaml.cs">
+      <DependentUpon>Ret_item.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Sale_home.xaml.cs">
+      <DependentUpon>Sale_home.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Sale_manager_home.xaml.cs">
+      <DependentUpon>Sale_manager_home.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Search_itm.xaml.cs">
+      <DependentUpon>Search_itm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Show_details.xaml.cs">
+      <DependentUpon>Show_details.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Show_pi.xaml.cs">
+      <DependentUpon>Show_pi.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Uvs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Uvs.Designer.cs">
+      <DependentUpon>Uvs.cs</DependentUpon>
+    </Compile>
+    <Page Include="Add_purchase.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Add_remove_item.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Add_remove_supp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Add_remove_user.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Admin_home.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Bill_generation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Change_pwd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Check_bill.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Check_inv.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Check_order.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Check_sale.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Check_supp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Inventory_manager_home.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Inv_status.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Order_item.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Remove.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Remove_supp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Report3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Return_item.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ret_item.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Sale_home.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Sale_manager_home.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Search_itm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Show_details.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Show_pi.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Bill_gen.resx">
+      <DependentUpon>Bill_gen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dvq.resx">
+      <DependentUpon>Dvq.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dvs.resx">
+      <DependentUpon>Dvs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uvs.resx">
+      <DependentUpon>Uvs.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.3.5">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 3.5 SP2</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.10.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2008 Express</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\IM.jpg" />
+    <Resource Include="Images\Admin.jpg" />
+    <Resource Include="Images\Login.jpg" />
+    <Resource Include="Images\SP.jpg" />
+    <Resource Include="Images\SM.jpg" />
+    <Resource Include="Images\hiren.jpg" />
+    <Resource Include="Images\nabil.JPG" />
+    <Resource Include="Images\Inventory maintenance.ico" />
+    <Content Include="Inv.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Inv_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Inv.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

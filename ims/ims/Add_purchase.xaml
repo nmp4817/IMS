@@ -1,0 +1,29 @@
+﻿<Window x:Class="Inventory_management_system.Add_purchase"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Add_purchase" Height="501" Width="796">
+    <Window.Background>
+        <ImageBrush>
+            <ImageBrush.ImageSource>
+                <BitmapImage UriSource="Images\IM.jpg"/>
+            </ImageBrush.ImageSource>
+        </ImageBrush>
+    </Window.Background>
+    <Grid >
+        <Label Content="SUPPLIER ID " Height="28" HorizontalAlignment="Left" Margin="12,38,0,0" Name="label1" VerticalAlignment="Top" />
+        <Label Content="ITEM NO " Height="28" HorizontalAlignment="Left" Margin="12,72,0,0" Name="label2" VerticalAlignment="Top" />
+        <Label Content="QUANTITY " Height="28" HorizontalAlignment="Left" Margin="12,115,0,0" Name="label3" VerticalAlignment="Top" />
+        <Label Content="BATCH NO " Height="28" HorizontalAlignment="Left" Margin="12,164,0,0" Name="label4" VerticalAlignment="Top" />
+        <Label Content="PURCHASE DATE" Height="28" HorizontalAlignment="Left" Margin="12,217,0,0" Name="label5" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="139,38,0,0" Name="sid" VerticalAlignment="Top" Width="120" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="139,74,0,0" Name="ino" VerticalAlignment="Top" Width="120" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="139,117,0,0" Name="qty" VerticalAlignment="Top" Width="120" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="139,166,0,0" Name="bno" VerticalAlignment="Top" Width="120" />
+        <DatePicker Height="25" HorizontalAlignment="Left" Margin="139,218,0,0" Name="datePicker1" VerticalAlignment="Top" Width="115" />
+        <Button Content="ADD" Height="23" HorizontalAlignment="Left" Margin="179,346,0,0" Name="add" VerticalAlignment="Top" Width="101" Click="add_Click" />
+        <Button Content="HOME" Height="23" HorizontalAlignment="Left" Margin="343,346,0,0" Name="home" VerticalAlignment="Top" Width="75" Click="home_Click" />
+        <Label Content="EXPIRY DATE" Height="28" HorizontalAlignment="Left" Margin="12,263,0,0" Name="label6" VerticalAlignment="Top" />
+        <DatePicker Height="25" HorizontalAlignment="Left" Margin="139,264,0,0" Name="datePicker2" VerticalAlignment="Top" Width="115" />
+        <Label Content="ADD PURCHASE ITEM INFORMATION" Height="28" HorizontalAlignment="Left" Margin="288,12,0,0" Name="label7" VerticalAlignment="Top" />
+    </Grid>
+</Window>

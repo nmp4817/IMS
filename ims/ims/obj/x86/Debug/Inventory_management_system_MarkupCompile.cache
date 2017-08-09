@@ -1,0 +1,20 @@
+﻿Inventory_management_system
+
+
+winexe
+C#
+.cs
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\
+Inventory_management_system
+none
+false
+DEBUG;TRACE
+F:\New E\Projects\FINAL PROJECT\ims\ims\App.xaml
+26-505921219
+21502689263
+391827147910
+17-1080145117
+Add_purchase.xaml;Add_remove_item.xaml;Add_remove_supp.xaml;Add_remove_user.xaml;Admin_home.xaml;Bill_generation.xaml;Change_pwd.xaml;Check_bill.xaml;Check_inv.xaml;Check_order.xaml;Check_sale.xaml;Check_supp.xaml;Inventory_manager_home.xaml;Inv_status.xaml;MainWindow.xaml;Order_item.xaml;Remove.xaml;Remove_supp.xaml;Report3.xaml;Return_item.xaml;Ret_item.xaml;Sale_home.xaml;Sale_manager_home.xaml;Search_itm.xaml;Show_details.xaml;Show_pi.xaml;
+
+False
+

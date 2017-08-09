@@ -1,0 +1,19 @@
+﻿<Window x:Class="Inventory_management_system.Remove"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Remove" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" Height="440" Width="571">
+    <Window.Background>
+        <ImageBrush>
+            <ImageBrush.ImageSource>
+                <BitmapImage UriSource="Images\Admin.jpg"/>
+            </ImageBrush.ImageSource>
+        </ImageBrush>
+    </Window.Background>
+    <Grid Height="382" Width="528">
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="158,78,0,0" Name="textBox1" VerticalAlignment="Top" Width="120" />
+        <Label Content="ENTER ITEM NO :" Height="28" HorizontalAlignment="Left" Margin="28,76,0,0" Name="label1" VerticalAlignment="Top" />
+        <Label Content="REMOVE ITEM" Height="28" HorizontalAlignment="Left" Margin="238,12,0,0" Name="label2" VerticalAlignment="Top" />
+        <Button Content="REMOVE" Height="23" HorizontalAlignment="Left" Margin="158,197,0,0" Name="button1" VerticalAlignment="Top" Width="75" Click="button1_Click" />
+        <Button Content="HOME" Height="23" HorizontalAlignment="Right" Margin="0,197,118,0" Name="button2" VerticalAlignment="Top" Width="75" Click="button2_Click" />
+    </Grid>
+</Window>

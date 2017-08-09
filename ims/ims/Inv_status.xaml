@@ -1,0 +1,21 @@
+﻿<Window x:Class="Inventory_management_system.Inv_status"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Inv_status" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" Height="544" Width="599">
+    <Window.Background>
+        <ImageBrush>
+            <ImageBrush.ImageSource>
+                <BitmapImage UriSource="Images\SP.jpg"/>
+            </ImageBrush.ImageSource>
+        </ImageBrush>
+    </Window.Background>
+    <Grid Height="495" Width="584" >
+        <DataGrid AutoGenerateColumns="True" Height="172" HorizontalAlignment="Left" Margin="30,137,0,0" Name="dataGrid1" VerticalAlignment="Top" Width="421" />
+        <Label Content="INVENTORY STATUS" Height="33" HorizontalAlignment="Center" Margin="10,10,0,0" Name="label1" VerticalAlignment="Top" Width="249" />
+        <Label Content="Item No :" Height="28" HorizontalAlignment="Left" Margin="30,42,0,0" Name="label2" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Right" Margin="0,47,345,0" Name="itm_no" VerticalAlignment="Top" Width="120" KeyDown="barcd_KeyDown"/>
+        <Button Content="Home" Height="23" HorizontalAlignment="Left" Margin="449,421,0,0" Name="home" VerticalAlignment="Top" Width="75" Click="home_Click" />
+        <Label Content="Item Name :" Height="28" HorizontalAlignment="Left" Margin="30,76,0,0" Name="label3" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="119,81,0,0" Name="textBox1" VerticalAlignment="Top" Width="120" KeyDown="textBox1_KeyDown" />
+    </Grid>
+</Window>

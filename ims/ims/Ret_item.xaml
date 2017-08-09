@@ -1,0 +1,21 @@
+﻿<Window x:Class="Inventory_management_system.Ret_item"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Ret_item" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" Height="466" Width="719">
+    <Window.Background>
+        <ImageBrush>
+            <ImageBrush.ImageSource>
+                <BitmapImage UriSource="Images\SM.jpg"/>
+            </ImageBrush.ImageSource>
+        </ImageBrush>
+    </Window.Background>
+    <Grid  Height="435" Width="690">
+        <Label Content=" RETURN ITEM" Height="28" HorizontalAlignment="Left" Margin="317,12,0,0" Name="label1" VerticalAlignment="Top" />
+        <Label Content="ITEM NO :" Height="28" HorizontalAlignment="Left" Margin="55,53,0,0" Name="label2" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="212,55,0,0" Name="ino" VerticalAlignment="Top" Width="120" />
+        <Label Content="BILL NO :" Height="28" HorizontalAlignment="Left" Margin="57,105,0,0" Name="label4" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="212,107,0,0" Name="bno" VerticalAlignment="Top" Width="120"  />
+        <Button Content="SUBMIT" Height="23" HorizontalAlignment="Left" Margin="144,178,0,0" Name="submit" VerticalAlignment="Top" Width="75" Click="submit_Click" />
+        <Button Content="Home" Height="23" HorizontalAlignment="Left" Margin="144,258,0,0" Name="button1" VerticalAlignment="Top" Width="75" Click="button1_Click" />
+    </Grid>
+</Window>

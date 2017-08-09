@@ -1,0 +1,26 @@
+﻿<Window x:Class="Inventory_management_system.Check_inv"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Check_inv" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" Height="616" Width="896">
+    <Window.Background>
+        <ImageBrush>
+            <ImageBrush.ImageSource>
+                <BitmapImage UriSource="Images\IM.jpg"/>
+            </ImageBrush.ImageSource>
+        </ImageBrush>
+    </Window.Background>
+    <Grid >
+        <Label Content="Item No: " Height="28" HorizontalAlignment="Left" Margin="12,51,0,0" Name="label1" VerticalAlignment="Top" />
+        <Label Content="Check by Availibitity :" Height="28" HorizontalAlignment="Left" Margin="12,96,0,0" Name="label2" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="157,53,0,0" Name="barcd" VerticalAlignment="Top" Width="120" KeyDown="barcd_KeyDown" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="157,101,0,0" Name="comboBox1" VerticalAlignment="Top" Width="120" SelectionChanged="comboBox1_SelectionChanged">
+            <ComboBoxItem Content="yes" />
+            <ComboBoxItem Content="no" />
+        </ComboBox>
+        <DataGrid AutoGenerateColumns="True" Height="266" HorizontalAlignment="Left" Margin="12,178,0,0" Name="dataGrid1" VerticalAlignment="Top" Width="745" />
+        <Button Content="HOME" Height="23" HorizontalAlignment="Left" Margin="605,475,0,0" Name="hm" VerticalAlignment="Top" Width="75" Click="hm_Click" />
+        <Button Content="ORDER ITEM" Height="23" HorizontalAlignment="Left" Margin="262,475,0,0" Name="button1" VerticalAlignment="Top" Width="75" Click="button1_Click" />
+        <Button Content="CHECK ORDERS" Height="23" HorizontalAlignment="Left" Margin="427,475,0,0" Name="chk_ordr" VerticalAlignment="Top" Width="95" Click="chk_ordr_Click" />
+        <Label Content="INVENTORY INFORMATION" Height="28" HorizontalAlignment="Left" Margin="402,12,0,0" Name="label3" VerticalAlignment="Top" />
+    </Grid>
+</Window>

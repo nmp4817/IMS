@@ -1,0 +1,32 @@
+﻿<Window x:Class="Inventory_management_system.Add_remove_user"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Add_remove_user" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" Height="612" Width="935">
+    <Window.Background>
+        <ImageBrush>
+            <ImageBrush.ImageSource>
+                <BitmapImage UriSource="Images\Admin.jpg"/>
+            </ImageBrush.ImageSource>
+        </ImageBrush>
+    </Window.Background>
+    <Grid >
+        <Label Content="ADD OR REMOVE USER" Height="28" HorizontalAlignment="Left" Margin="418,12,0,0" Name="label1" VerticalAlignment="Top" />
+        <Label Content="USER ID :" Height="28" HorizontalAlignment="Left" Margin="21,52,0,0" Name="label2" VerticalAlignment="Top" />
+        <Label Content="PASSWORD :" Height="28" HorizontalAlignment="Left" Margin="21,91,0,0" Name="label3" VerticalAlignment="Top" />
+        <Label Content="ROLE ID :" Height="28" HorizontalAlignment="Left" Margin="21,133,0,0" Name="label4" VerticalAlignment="Top" />
+        <Label Content="CONTACT NO :" Height="28" HorizontalAlignment="Left" Margin="21,177,0,0" Name="label5" VerticalAlignment="Top" />
+        <Label Content="ADDRESS" Height="28" HorizontalAlignment="Left" Margin="21,219,0,0" Name="label6" VerticalAlignment="Top" />
+        <Label Content="FULL NAME" Height="28" HorizontalAlignment="Left" Margin="21,253,0,0" Name="label7" VerticalAlignment="Top" />
+        <Label Content="EMAIL ID :" Height="28" HorizontalAlignment="Left" Margin="21,287,0,0" Name="label8" VerticalAlignment="Top" />
+        <Button Content="ADD" Height="23" HorizontalAlignment="Left" Margin="108,372,0,0" Name="button1" VerticalAlignment="Top" Width="75" Click="button1_Click" />
+        <Button Content="REMOVE" Height="23" HorizontalAlignment="Left" Margin="228,372,0,0" Name="button2" VerticalAlignment="Top" Width="75" Click="button2_Click" />
+        <Button Content="HOME" Height="23" HorizontalAlignment="Left" Margin="339,372,0,0" Name="button3" VerticalAlignment="Top" Width="75" Click="button3_Click" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="125,138,0,0" Name="textBox3" VerticalAlignment="Top" Width="120" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="125,96,0,0" Name="textBox2" VerticalAlignment="Top" Width="120" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="125,57,0,0" Name="textBox1" VerticalAlignment="Top" Width="120" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="125,179,0,0" Name="textBox4" VerticalAlignment="Top" Width="120" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="125,219,0,0" Name="textBox5" VerticalAlignment="Top" Width="120" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="125,258,0,0" Name="textBox6" VerticalAlignment="Top" Width="120" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="125,292,0,0" Name="textBox7" VerticalAlignment="Top" Width="120" />
+    </Grid>
+</Window>

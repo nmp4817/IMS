@@ -1,0 +1,268 @@
+c:\users\hiren\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\hiren\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\Bill_generation.baml
+c:\users\hiren\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\MainWindow.baml
+c:\users\hiren\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\Sale_home.baml
+c:\users\hiren\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\Bill_generation.g.cs
+c:\users\hiren\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\MainWindow.g.cs
+c:\users\hiren\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\Sale_home.g.cs
+c:\users\hiren\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\App.g.cs
+c:\users\hiren\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\hiren\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\HIREN\Documents\Visual Studio 2010\Projects\ims\ims\bin\Debug\Inventory_management_system.exe.config
+C:\Users\HIREN\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Inv_status.baml
+C:\Users\HIREN\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Search_itm.baml
+C:\Users\HIREN\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Inv_status.g.cs
+C:\Users\HIREN\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Search_itm.g.cs
+C:\Users\HIREN\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Inventory_management_system_Content.g.cs
+C:\Users\HIREN\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Inventory_management_system_MarkupCompile.cache
+C:\Users\HIREN\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Inventory_management_system.g.resources
+C:\Users\HIREN\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Inventory_management_system.Properties.Resources.resources
+C:\Users\HIREN\Documents\Visual Studio 2010\Projects\ims\ims\bin\Debug\Inv.mdf
+C:\Users\HIREN\Documents\Visual Studio 2010\Projects\ims\ims\bin\Debug\Inv_log.ldf
+C:\Users\HIREN\Documents\Visual Studio 2010\Projects\ims\ims\bin\Debug\Inventory_management_system.exe
+C:\Users\HIREN\Documents\Visual Studio 2010\Projects\ims\ims\bin\Debug\Inventory_management_system.pdb
+C:\Users\HIREN\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Inventory_management_system.exe
+C:\Users\HIREN\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Inventory_management_system.pdb
+C:\Users\HIREN\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\Change_pwd.baml
+C:\Users\HIREN\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\Change_pwd.g.cs
+C:\Users\HIREN\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\Inventory_management_system.Bill_gen.resources
+C:\Users\HIREN\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\Sale_manager_home.baml
+C:\Users\HIREN\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\Sale_manager_home.g.cs
+C:\Users\HIREN\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\Check_sale.baml
+C:\Users\HIREN\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\Check_sale.g.cs
+C:\Users\HIREN\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\Check_bill.baml
+C:\Users\HIREN\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\Check_bill.g.cs
+C:\Users\HIREN\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\Return_item.baml
+C:\Users\HIREN\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\Return_item.g.cs
+C:\Users\HIREN\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\Ret_item.baml
+C:\Users\HIREN\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\Ret_item.g.cs
+C:\Users\HIREN\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\Inventory_manager_home.baml
+C:\Users\HIREN\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\Inventory_manager_home.g.cs
+C:\Users\HIREN\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\Check_inv.baml
+C:\Users\HIREN\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\Check_inv.g.cs
+C:\Users\HIREN\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\Check_supp.baml
+C:\Users\HIREN\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\Check_supp.g.cs
+C:\Users\HIREN\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\Add_purchase.baml
+C:\Users\HIREN\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\Show_pi.baml
+C:\Users\HIREN\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\Add_purchase.g.cs
+C:\Users\HIREN\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\Show_pi.g.cs
+C:\Users\HIREN\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\Order_item.baml
+C:\Users\HIREN\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\Order_item.g.cs
+C:\Users\HIREN\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\Check_order.baml
+C:\Users\HIREN\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\Check_order.g.cs
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\bin\Debug\Inventory_management_system.exe.config
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Inventory_management_system.exe
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Inventory_management_system.pdb
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Add_purchase.baml
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Bill_generation.baml
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Change_pwd.baml
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Check_bill.baml
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Check_inv.baml
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Check_order.baml
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Check_sale.baml
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Check_supp.baml
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Inventory_manager_home.baml
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Inv_status.baml
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\MainWindow.baml
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Order_item.baml
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Return_item.baml
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Ret_item.baml
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Sale_home.baml
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Sale_manager_home.baml
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Search_itm.baml
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Show_pi.baml
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Add_purchase.g.cs
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Bill_generation.g.cs
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Change_pwd.g.cs
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Check_bill.g.cs
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Check_inv.g.cs
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Check_order.g.cs
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Check_sale.g.cs
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Check_supp.g.cs
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Inventory_manager_home.g.cs
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Inv_status.g.cs
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\MainWindow.g.cs
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Order_item.g.cs
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Return_item.g.cs
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Ret_item.g.cs
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Sale_home.g.cs
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Sale_manager_home.g.cs
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Search_itm.g.cs
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Show_pi.g.cs
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\App.g.cs
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Inventory_management_system_Content.g.cs
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Inventory_management_system_MarkupCompile.cache
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Inventory_management_system.g.resources
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Inventory_management_system.Bill_gen.resources
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Inventory_management_system.Properties.Resources.resources
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\bin\Debug\Inv.mdf
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\bin\Debug\Inv_log.ldf
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\bin\Debug\Inventory_management_system.exe
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\bin\Debug\Inventory_management_system.pdb
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Add_remove_item.baml
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Admin_home.baml
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Add_remove_item.g.cs
+C:\Users\NabilPatel\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Admin_home.g.cs
+C:\Users\HIREN\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Add_remove_item.baml
+C:\Users\HIREN\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Add_remove_supp.baml
+C:\Users\HIREN\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Add_remove_user.baml
+C:\Users\HIREN\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Admin_home.baml
+C:\Users\HIREN\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Add_remove_item.g.cs
+C:\Users\HIREN\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Add_remove_supp.g.cs
+C:\Users\HIREN\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Add_remove_user.g.cs
+C:\Users\HIREN\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Admin_home.g.cs
+C:\Users\HIREN\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Report3.baml
+C:\Users\HIREN\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Report3.g.cs
+C:\Users\HIREN\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Inventory_management_system.Dvs.resources
+C:\Users\HIREN\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Inventory_management_system.Dvq.resources
+C:\Users\HIREN\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Inventory_management_system.Uvs.resources
+C:\Users\HIREN\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Remove.baml
+C:\Users\HIREN\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Remove.g.cs
+C:\Users\HIREN\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Remove_supp.baml
+C:\Users\HIREN\Documents\Visual Studio 2010\Projects\ims\ims\obj\x86\Debug\Remove_supp.g.cs
+C:\Users\HIREN\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\Show_details.baml
+C:\Users\HIREN\documents\visual studio 2010\Projects\ims\ims\obj\x86\Debug\Show_details.g.cs
+K:\D\ims\ims\bin\Debug\Inventory_management_system.exe.config
+K:\D\ims\ims\obj\x86\Debug\Inventory_management_system.exe
+K:\D\ims\ims\obj\x86\Debug\Inventory_management_system.pdb
+K:\D\ims\ims\bin\Debug\Inv.mdf
+K:\D\ims\ims\bin\Debug\Inv_log.ldf
+K:\D\ims\ims\bin\Debug\Inventory_management_system.exe
+K:\D\ims\ims\bin\Debug\Inventory_management_system.pdb
+K:\D\ims\ims\obj\x86\Debug\ResolveAssemblyReference.cache
+K:\D\ims\ims\obj\x86\Debug\Add_purchase.baml
+K:\D\ims\ims\obj\x86\Debug\Add_remove_item.baml
+K:\D\ims\ims\obj\x86\Debug\Add_remove_supp.baml
+K:\D\ims\ims\obj\x86\Debug\Add_remove_user.baml
+K:\D\ims\ims\obj\x86\Debug\Admin_home.baml
+K:\D\ims\ims\obj\x86\Debug\Bill_generation.baml
+K:\D\ims\ims\obj\x86\Debug\Change_pwd.baml
+K:\D\ims\ims\obj\x86\Debug\Check_bill.baml
+K:\D\ims\ims\obj\x86\Debug\Check_inv.baml
+K:\D\ims\ims\obj\x86\Debug\Check_order.baml
+K:\D\ims\ims\obj\x86\Debug\Check_sale.baml
+K:\D\ims\ims\obj\x86\Debug\Check_supp.baml
+K:\D\ims\ims\obj\x86\Debug\Inventory_manager_home.baml
+K:\D\ims\ims\obj\x86\Debug\Inv_status.baml
+K:\D\ims\ims\obj\x86\Debug\MainWindow.baml
+K:\D\ims\ims\obj\x86\Debug\Order_item.baml
+K:\D\ims\ims\obj\x86\Debug\Remove.baml
+K:\D\ims\ims\obj\x86\Debug\Remove_supp.baml
+K:\D\ims\ims\obj\x86\Debug\Report3.baml
+K:\D\ims\ims\obj\x86\Debug\Return_item.baml
+K:\D\ims\ims\obj\x86\Debug\Ret_item.baml
+K:\D\ims\ims\obj\x86\Debug\Sale_home.baml
+K:\D\ims\ims\obj\x86\Debug\Sale_manager_home.baml
+K:\D\ims\ims\obj\x86\Debug\Search_itm.baml
+K:\D\ims\ims\obj\x86\Debug\Show_details.baml
+K:\D\ims\ims\obj\x86\Debug\Show_pi.baml
+K:\D\ims\ims\obj\x86\Debug\Add_purchase.g.cs
+K:\D\ims\ims\obj\x86\Debug\Add_remove_item.g.cs
+K:\D\ims\ims\obj\x86\Debug\Add_remove_supp.g.cs
+K:\D\ims\ims\obj\x86\Debug\Add_remove_user.g.cs
+K:\D\ims\ims\obj\x86\Debug\Admin_home.g.cs
+K:\D\ims\ims\obj\x86\Debug\Bill_generation.g.cs
+K:\D\ims\ims\obj\x86\Debug\Change_pwd.g.cs
+K:\D\ims\ims\obj\x86\Debug\Check_bill.g.cs
+K:\D\ims\ims\obj\x86\Debug\Check_inv.g.cs
+K:\D\ims\ims\obj\x86\Debug\Check_order.g.cs
+K:\D\ims\ims\obj\x86\Debug\Check_sale.g.cs
+K:\D\ims\ims\obj\x86\Debug\Check_supp.g.cs
+K:\D\ims\ims\obj\x86\Debug\Inventory_manager_home.g.cs
+K:\D\ims\ims\obj\x86\Debug\Inv_status.g.cs
+K:\D\ims\ims\obj\x86\Debug\MainWindow.g.cs
+K:\D\ims\ims\obj\x86\Debug\Order_item.g.cs
+K:\D\ims\ims\obj\x86\Debug\Remove.g.cs
+K:\D\ims\ims\obj\x86\Debug\Remove_supp.g.cs
+K:\D\ims\ims\obj\x86\Debug\Report3.g.cs
+K:\D\ims\ims\obj\x86\Debug\Return_item.g.cs
+K:\D\ims\ims\obj\x86\Debug\Ret_item.g.cs
+K:\D\ims\ims\obj\x86\Debug\Sale_home.g.cs
+K:\D\ims\ims\obj\x86\Debug\Sale_manager_home.g.cs
+K:\D\ims\ims\obj\x86\Debug\Search_itm.g.cs
+K:\D\ims\ims\obj\x86\Debug\Show_details.g.cs
+K:\D\ims\ims\obj\x86\Debug\Show_pi.g.cs
+K:\D\ims\ims\obj\x86\Debug\App.g.cs
+K:\D\ims\ims\obj\x86\Debug\Inventory_management_system_Content.g.cs
+K:\D\ims\ims\obj\x86\Debug\Inventory_management_system_MarkupCompile.cache
+K:\D\ims\ims\obj\x86\Debug\Inventory_management_system.g.resources
+K:\D\ims\ims\obj\x86\Debug\Inventory_management_system.Bill_gen.resources
+K:\D\ims\ims\obj\x86\Debug\Inventory_management_system.Dvq.resources
+K:\D\ims\ims\obj\x86\Debug\Inventory_management_system.Dvs.resources
+K:\D\ims\ims\obj\x86\Debug\Inventory_management_system.Properties.Resources.resources
+K:\D\ims\ims\obj\x86\Debug\Inventory_management_system.Uvs.resources
+K:\D\ims\ims\obj\x86\Debug\GenerateResource.read.1.tlog
+K:\D\ims\ims\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\New E\Projects\FINAL PROJECT\ims\ims\bin\Debug\Inventory_management_system.exe.config
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Inventory_management_system.exe
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Inventory_management_system.pdb
+F:\New E\Projects\FINAL PROJECT\ims\ims\bin\Debug\Inv.mdf
+F:\New E\Projects\FINAL PROJECT\ims\ims\bin\Debug\Inv_log.ldf
+F:\New E\Projects\FINAL PROJECT\ims\ims\bin\Debug\Inventory_management_system.exe
+F:\New E\Projects\FINAL PROJECT\ims\ims\bin\Debug\Inventory_management_system.pdb
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\ims.csprojResolveAssemblyReference.cache
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Add_purchase.baml
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Add_remove_item.baml
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Add_remove_supp.baml
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Add_remove_user.baml
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Admin_home.baml
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Bill_generation.baml
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Change_pwd.baml
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Check_bill.baml
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Check_inv.baml
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Check_order.baml
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Check_sale.baml
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Check_supp.baml
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Inventory_manager_home.baml
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Inv_status.baml
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\MainWindow.baml
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Order_item.baml
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Remove.baml
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Remove_supp.baml
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Report3.baml
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Return_item.baml
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Ret_item.baml
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Sale_home.baml
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Sale_manager_home.baml
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Search_itm.baml
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Show_details.baml
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Show_pi.baml
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Add_purchase.g.cs
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Add_remove_item.g.cs
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Add_remove_supp.g.cs
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Add_remove_user.g.cs
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Admin_home.g.cs
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Bill_generation.g.cs
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Change_pwd.g.cs
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Check_bill.g.cs
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Check_inv.g.cs
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Check_order.g.cs
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Check_sale.g.cs
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Check_supp.g.cs
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Inventory_manager_home.g.cs
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Inv_status.g.cs
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\MainWindow.g.cs
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Order_item.g.cs
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Remove.g.cs
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Remove_supp.g.cs
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Report3.g.cs
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Return_item.g.cs
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Ret_item.g.cs
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Sale_home.g.cs
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Sale_manager_home.g.cs
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Search_itm.g.cs
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Show_details.g.cs
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Show_pi.g.cs
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\App.g.cs
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Inventory_management_system_Content.g.cs
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Inventory_management_system_MarkupCompile.cache
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Inventory_management_system.g.resources
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Inventory_management_system.Bill_gen.resources
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Inventory_management_system.Dvq.resources
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Inventory_management_system.Dvs.resources
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Inventory_management_system.Properties.Resources.resources
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\Inventory_management_system.Uvs.resources
+F:\New E\Projects\FINAL PROJECT\ims\ims\obj\x86\Debug\ims.csproj.GenerateResource.Cache

@@ -1,0 +1,22 @@
+﻿<Window x:Class="Inventory_management_system.Sale_manager_home"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Sale_manager_home" Height="578" Width="707">
+    <Window.Background>
+        <ImageBrush>
+            <ImageBrush.ImageSource>
+                <BitmapImage UriSource="Images\SM.jpg"/>
+            </ImageBrush.ImageSource>
+        </ImageBrush>
+    </Window.Background>
+    <Grid Height="535" Width="678" >
+        <Label Content="SALES MANAGER HOME PAGE" Height="28" HorizontalAlignment="Center" Margin="262,12,223,0" Name="label1" VerticalAlignment="Top" />
+        <Button Content="Check Sales Status" Height="23" HorizontalAlignment="Left" Margin="293,71,0,0" Name="css" VerticalAlignment="Top" Width="197" Click="css_Click" />
+        <Button Content="Check Bill Status" Height="23" HorizontalAlignment="Left" Margin="293,141,0,0" Name="cbs" VerticalAlignment="Top" Width="197" Click="cbs_Click" />
+        <Button Content="Return Item" Height="23" HorizontalAlignment="Left" Margin="293,214,0,0" Name="Reti" VerticalAlignment="Top" Width="197" Click="Reti_Click" />
+        <Button Content="Check Return Status" Height="23" HorizontalAlignment="Left" Margin="293,285,0,0" Name="crs" VerticalAlignment="Top" Width="197" Click="crs_Click" />
+        <Button Content="Your Profile" Height="23" HorizontalAlignment="Left" Margin="293,405,0,0" Name="yp" VerticalAlignment="Top" Width="197" Click="yp_Click" />
+        <Button Content="LOGOUT" Height="23" HorizontalAlignment="Left" Margin="415,472,0,0" Name="logout" VerticalAlignment="Top" Width="75" Click="logout_Click" />
+        <Button Content="Sale Report" Height="23" HorizontalAlignment="Left" Margin="293,342,0,0" Name="sale_report" VerticalAlignment="Top" Width="197" Click="sale_report_Click" />
+    </Grid>
+</Window>

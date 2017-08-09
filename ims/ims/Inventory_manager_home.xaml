@@ -1,0 +1,21 @@
+﻿<Window x:Class="Inventory_management_system.Inventory_manager_home"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Inventory_manager_home" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" Height="498" Width="877">
+    <Window.Background>
+        <ImageBrush>
+            <ImageBrush.ImageSource>
+                <BitmapImage UriSource="Images\IM.jpg"/>
+            </ImageBrush.ImageSource>
+        </ImageBrush>
+    </Window.Background>
+    <Grid Height="460" Width="841" >
+        <Label Content="INVENTORY MANAGER" Height="28" HorizontalAlignment="Left" Margin="367,12,0,0" Name="label1" VerticalAlignment="Top" />
+        <Button Content="CHECK INVENTORY" Height="23" HorizontalAlignment="Left" Margin="375,68,0,0" Name="chk_inv" VerticalAlignment="Top" Width="126" Click="chk_inv_Click" />
+        <Button Content="CHECK SUPPLIERS" Height="23" HorizontalAlignment="Left" Margin="375,129,0,0" Name="chk_sup" VerticalAlignment="Top" Width="126" Click="chk_sup_Click" />
+        <Button Content="ADD PURCHASE ITEM" Height="23" HorizontalAlignment="Left" Margin="375,186,0,0" Name="api" VerticalAlignment="Top" Width="126" Click="api_Click" />
+        <Button Content="PURCHASED ITEM" Height="23" HorizontalAlignment="Left" Margin="375,249,0,0" Name="purc_item" VerticalAlignment="Top" Width="126" Click="purc_item_Click" />
+        <Button Content="YOUR PROFILE" Height="23" HorizontalAlignment="Left" Margin="375,310,0,0" Name="yr_prfl" VerticalAlignment="Top" Width="126" Click="yr_prfl_Click" />
+        <Button Content="LOGOUT" Height="23" HorizontalAlignment="Left" Margin="657,380,0,0" Name="logout" VerticalAlignment="Top" Width="75" Click="logout_Click" />
+    </Grid>
+</Window>

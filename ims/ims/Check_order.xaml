@@ -1,0 +1,23 @@
+﻿<Window x:Class="Inventory_management_system.Check_order"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Check_order" Height="536" Width="1166">
+    <Window.Background>
+        <ImageBrush>
+            <ImageBrush.ImageSource>
+                <BitmapImage UriSource="Images\IM.jpg"/>
+            </ImageBrush.ImageSource>
+        </ImageBrush>
+    </Window.Background>
+    <Grid Height="487" Width="1089">
+        <Label Content="CHECK ORDERS" Height="28" HorizontalAlignment="Left" Margin="469,12,0,0" Name="label1" VerticalAlignment="Top" />
+        <Label Content="BY DATE :" Height="28" HorizontalAlignment="Left" Margin="80,76,0,0" Name="label2" VerticalAlignment="Top" />
+        <Label Content="BY ITEM NO :" Height="28" HorizontalAlignment="Left" Margin="80,126,0,0" Name="label3" VerticalAlignment="Top" />
+        <Label Content="BY SUPPLIER ID :" Height="28" HorizontalAlignment="Left" Margin="80,181,0,0" Name="label4" VerticalAlignment="Top" />
+        <DatePicker Height="25" HorizontalAlignment="Left" Margin="233,79,0,0" Name="datePicker1" VerticalAlignment="Top" Width="115" SelectedDateChanged="datePicker1_SelectedDateChanged" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="233,131,0,0" Name="textBox1" VerticalAlignment="Top" Width="120" KeyDown="textBox1_KeyDown" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="233,186,0,0" Name="textBox2" VerticalAlignment="Top" Width="120" KeyDown="textBox2_KeyDown" />
+        <DataGrid AutoGenerateColumns="True" Height="200" HorizontalAlignment="Left" Margin="80,237,0,0" Name="dataGrid1" VerticalAlignment="Top" Width="538" />
+        <Button Content="HOME" Height="23" HorizontalAlignment="Left" Margin="734,444,0,0" Name="home" VerticalAlignment="Top" Width="75" Click="home_Click" />
+    </Grid>
+</Window>

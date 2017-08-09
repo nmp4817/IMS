@@ -1,0 +1,21 @@
+﻿<Window x:Class="Inventory_management_system.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" Height="517" Width="878">
+    <Window.Background>
+        <ImageBrush>
+            <ImageBrush.ImageSource>
+                <BitmapImage UriSource="Images\Login.jpg"/>
+            </ImageBrush.ImageSource>
+        </ImageBrush>
+    </Window.Background>
+    <Grid  OpacityMask="#FC000106" Height="482" Width="859">
+        <Label Content="INVENTORY MANAGEMENT SYSTEM" Height="35" HorizontalAlignment="Center" Margin="183,12,12,0" Name="label1" VerticalAlignment="Top" FontSize="18" Width="308" Foreground="#FFFA0000" Background="#05001900" />
+        <Label Content="USERNAME  :" Height="28" HorizontalAlignment="Left" Margin="400,150,0,0" Name="label2" VerticalAlignment="Top" FontSize="16" Foreground="#FF0000F7" />
+        <Label Content="PASSWORD  :" Height="28" HorizontalAlignment="Left" Margin="400,221,0,0" Name="label3" VerticalAlignment="Top"  FontSize="16" Foreground="#FF0000E1" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="568,150,0,0" Name="textBox1" VerticalAlignment="Top" Width="120" />
+        <PasswordBox Height="23" HorizontalAlignment="Left" Margin="568,221,0,0" Name="textBox2" VerticalAlignment="Top" Width="120" />
+        <Button Content="LOGIN" Height="23" HorizontalAlignment="Left" Margin="600,300,0,0" Name="button1" VerticalAlignment="Top" Width="75" Foreground="#FFF00000" Click="button1_Click" />
+    </Grid>
+
+</Window>

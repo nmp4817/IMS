@@ -1,0 +1,30 @@
+﻿<Window x:Class="Inventory_management_system.Change_pwd"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Change_pwd" Height="569" Width="670" Loaded="Window_Loaded">
+    <Window.Background>
+        <ImageBrush>
+            <ImageBrush.ImageSource>
+                <BitmapImage UriSource="Images\Login.jpg"/>
+            </ImageBrush.ImageSource>
+        </ImageBrush>
+    </Window.Background>
+
+    <Grid  Height="483" Width="614">
+        <Image Height="150" HorizontalAlignment="Left" Margin="391,87,0,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="200"   />
+        <Label Content="Your Profile" Height="35" HorizontalAlignment="Left" Margin="238,12,0,0" Name="label1" VerticalAlignment="Top" FontSize="18" />
+        <Button Content="Home" Height="23" HorizontalAlignment="Left" Margin="471,417,0,0" Name="button1" VerticalAlignment="Top" Width="75" Click="button1_Click" />
+        <Label Content="Name :" Height="28" HorizontalAlignment="Left" Margin="86,53,0,0" Name="label3" VerticalAlignment="Top" />
+        <Label Content="" Height="28" HorizontalAlignment="Left" Margin="209,53,0,0" Name="name" VerticalAlignment="Top" />
+        <Label Content="Login_Time" Height="28" HorizontalAlignment="Left" Margin="86,102,0,0" Name="label4" VerticalAlignment="Top" />
+        <Label Content="" Height="28" HorizontalAlignment="Right" Margin="0,0,351,353" Name="login_time" VerticalAlignment="Bottom" />
+        <Button Content="Change Password" Height="29" HorizontalAlignment="Left" Margin="112,154,0,0" Name="button2" VerticalAlignment="Top" Width="106" Click="button2_Click" />
+        <Label Content="Old Password" Height="28" HorizontalAlignment="Left" Margin="86,209,0,0" Name="label5" VerticalAlignment="Top" Visibility="Hidden" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="209,211,0,0" Name="oldpwd" VerticalAlignment="Top" Width="120" Visibility="Hidden" />
+        <Label Content="New Password" Height="28" HorizontalAlignment="Left" Margin="86,256,0,0" Name="label6" VerticalAlignment="Top" Visibility="Hidden" />
+        <TextBox Height="23" HorizontalAlignment="Right" Margin="0,258,285,0" Name="newpwd" VerticalAlignment="Top" Width="120" Visibility="Hidden" />
+        <Label Content="Re-enter Password" Height="28" HorizontalAlignment="Left" Margin="86,306,0,0" Name="label7" VerticalAlignment="Top" Visibility="Hidden" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="208,308,0,0" Name="repwd" VerticalAlignment="Top" Width="120" Visibility="Hidden" />
+        <Button Content="Done" Height="23" HorizontalAlignment="Left" Margin="180,370,0,0" Name="done" VerticalAlignment="Top" Width="75" Visibility="Hidden" Click="done_Click" />
+    </Grid>
+</Window>

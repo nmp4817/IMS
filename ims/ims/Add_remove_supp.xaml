@@ -1,0 +1,28 @@
+﻿<Window x:Class="Inventory_management_system.Add_remove_supp"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Add_remove_supp" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" Loaded="Window_Loaded" Height="613" Width="933">
+    <Window.Background>
+        <ImageBrush>
+            <ImageBrush.ImageSource>
+                <BitmapImage UriSource="Images\Admin.jpg"/>
+            </ImageBrush.ImageSource>
+        </ImageBrush>
+    </Window.Background>
+    <Grid >
+        <Label Content="ADD OR REMOVE SUPPLIER" Height="28" HorizontalAlignment="Left" Margin="418,12,0,0" Name="label1" VerticalAlignment="Top" />
+        <Label Content="SUPPLIER ID :" Height="28" HorizontalAlignment="Left" Margin="50,86,0,0" Name="label2" VerticalAlignment="Top" />
+        <Label Content="NAME :" Height="28" HorizontalAlignment="Left" Margin="50,137,0,0" Name="label3" VerticalAlignment="Top" />
+        <Label Content="CONTACT NO :" Height="28" HorizontalAlignment="Left" Margin="50,195,0,0" Name="label4" VerticalAlignment="Top" />
+        <Label Content="ADDRESS :" Height="28" HorizontalAlignment="Left" Margin="48,254,0,0" Name="label5" VerticalAlignment="Top" />
+        <Label Content="ITEM NO :" Height="28" HorizontalAlignment="Left" Margin="50,314,0,0" Name="label6" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="240,142,0,0" Name="textBox2" VerticalAlignment="Top" Width="120" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="240,200,0,0" Name="textBox3" VerticalAlignment="Top" Width="120" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="240,259,0,0" Name="textBox4" VerticalAlignment="Top" Width="120" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="240,316,0,0" Name="textBox5" VerticalAlignment="Top" Width="120" />
+        <Label Content="" Height="28" HorizontalAlignment="Left" Margin="240,86,0,0" Name="label7" VerticalAlignment="Top" />
+        <Button Content="ADD" Height="23" HorizontalAlignment="Left" Margin="240,413,0,0" Name="button1" VerticalAlignment="Top" Width="75" Click="button1_Click" />
+        <Button Content="REMOVE " Height="23" HorizontalAlignment="Left" Margin="358,413,0,0" Name="button2" VerticalAlignment="Top" Width="75" Click="button2_Click" />
+        <Button Content="HOME" Height="23" HorizontalAlignment="Right" Margin="0,411,355,0" Name="button3" VerticalAlignment="Top" Width="75" Click="button3_Click" />
+    </Grid>
+</Window>
